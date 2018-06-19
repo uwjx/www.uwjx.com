@@ -12,6 +12,7 @@
     "@icedesign/menu": "^0.1.0",
     "@icedesign/skin": "^0.1.0",
     "classnames": "^2.2.5",
+    "clean-webpack-plugin": "^0.1.19",
     "enquire-js": "^0.1.2",
     "foundation-symbol": "^0.1.0",
     "node-sass": "^4.9.0",
@@ -34,6 +35,7 @@
   "scripts": {
     "start": "ice dev",
     "build": "ice build",
+    "buildProduction": "ice build NODE_ENV=production",
     "lint": "eslint . --ext '.js,.jsx' --fix"
   },
   "publishConfig": {
