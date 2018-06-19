@@ -27,6 +27,8 @@ export default () => {
       >
         上海青城信息科技有限公司
         <br />
+        上海市景联路439号电子物联产业园4A-212&213
+        <br />
         All Rights Reserved © 2018 版权所有
         <br />
         <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=S29tWKXsuIa6G9K-ktpSuRjkGF5ELNvXPcHLTNvBkbECSeYhgIxc!495133832">沪ICP备18008337号</a>

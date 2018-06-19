@@ -19,50 +19,50 @@ export default class FeatureList extends Component {
       <div style={styles.wrapper}>
         <div style={styles.contentWrapper}>
           <div style={styles.titleWrapper}>
-            <h3 style={styles.title}>核心功能</h3>
+            <h3 style={styles.title}>智能硬件</h3>
             <div style={styles.titleLine}>
               <div style={styles.titleHighlightLine} />
             </div>
           </div>
           <p style={styles.desc}>
-            提供专业的标准化物联网解决方案，并支持定制化的情景开发。
+            提供专业的物联网智能硬件开发解决方案，支持定制化的情景开发。
           </p>
           <div style={styles.featureListWrapper}>
             <div style={styles.featureItem}>
               <img
-                src="https://img.alicdn.com/tfs/TB1b7O4if5TBuNjSspmXXaDRVXa-172-170.png"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/xp.png"
                 alt=""
-                style={{ width: 86, height: 85 }}
+                style={{ width: 90, height: 90 }}
               />
-              <h4 style={styles.featureTitle}>设备管理</h4>
-              <p style={styles.featureDesc}>所有设备 一览无余</p>
+              <h4 style={styles.featureTitle}>ARM 芯片</h4>
+              <p style={styles.featureDesc}>Intel/飞思卡尔/ST/Renesas等</p>
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://img.alicdn.com/tfs/TB1PnOuik9WBuNjSspeXXaz5VXa-180-146.png"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/os.png"
                 alt=""
-                style={{ width: 90, height: 73 }}
+                style={{ width: 90, height: 90 }}
               />
-              <h4 style={styles.featureTitle}>实时监控</h4>
-              <p style={styles.featureDesc}>多终端实时查看设备状态</p>
+              <h4 style={styles.featureTitle}>智能系统</h4>
+              <p style={styles.featureDesc}>采用AliOS Thing现代化操作系统</p>
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://img.alicdn.com/tfs/TB1PnOuik9WBuNjSspeXXaz5VXa-180-146.png"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/cgq.png"
                 alt=""
-                style={{ width: 90, height: 73 }}
+                style={{ width: 90, height: 90 }}
               />
-              <h4 style={styles.featureTitle}>远程控制</h4>
-              <p style={styles.featureDesc}>2G/3G/4G WIFI NB-IOT 蓝牙等</p>
+              <h4 style={styles.featureTitle}>丰富传感</h4>
+              <p style={styles.featureDesc}>支持温湿度/位置/接近/通断/红外等</p>
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://img.alicdn.com/tfs/TB1GUF9ibSYBuNjSspiXXXNzpXa-160-136.png"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/net.png"
                 alt=""
-                style={{ width: 80, height: 68 }}
+                style={{ width: 90, height: 90 }}
               />
-              <h4 style={styles.featureTitle}>报表统计</h4>
-              <p style={styles.featureDesc}>历史数据 在线追溯</p>
+              <h4 style={styles.featureTitle}>全面物联</h4>
+              <p style={styles.featureDesc}>2G/3G/4G/WIFI/NB-IOT/蓝牙等</p>
             </div>
           </div>
           <div style={styles.extraInfo}>

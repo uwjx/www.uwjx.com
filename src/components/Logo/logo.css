@@ -1,13 +1,23 @@
+.logo {
+  width: 50%;
+}
+
 .logo-title {
   color: #FFF;
   font-size: 25px;
-  float: right;
+  float: left;
   margin-top: 45px;
 }
 .logoImg {
-  float: none;
+  float: left;
 }
 .logo-subTitle {
   color: #FFF;
+  float: left;
   font-size: 18px;
+}
+.logo-title-en {
+  float: left;
+  color: #FFF;
+  font-size: 12px;
 }

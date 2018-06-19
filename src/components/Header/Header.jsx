@@ -6,19 +6,28 @@ import './Header.scss';
 
 const MENUS = [
   {
-    name: '联系方式',
+    name: '首页',
+    path: '/#/',
   },
   {
-    name: '在线文档',
+    name: '云平台',
+    path: '/#/web',
   },
   {
-    name: '客户案例',
+    name: '智能硬件',
+    path: '/#/hardware',
   },
   {
-    name: 'Github',
+    name: '解决方案',
+    path: '/#/solution',
+  },
+  {
+    name: '物联网卡',
+    path: '/#/sim',
   },
   {
     name: '关于我们',
+    path: '/#/aboutus',
   },
 ];
 

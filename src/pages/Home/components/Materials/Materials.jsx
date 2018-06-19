@@ -18,12 +18,12 @@ export default class IntroWithBackground extends Component {
     return (
       <div style={styles.wrapper}>
         <div style={styles.inntroContent}>
-          <h3 style={styles.title}>多端接入</h3>
+          <h3 style={styles.title}>解决方案</h3>
           <div style={styles.titleLine}>
             <div style={styles.titleHighlightLine} />
           </div>
           <p style={styles.desc}>
-            WEB浏览器，H5，微信公众号，微信小程序，IOS/Android 等。
+            WEB网站，H5，微信公众号，微信小程序，IOS/Android应用等。
           </p>
           <Link to="">
             <Button style={styles.extraButton}>了解更多 &gt;</Button>

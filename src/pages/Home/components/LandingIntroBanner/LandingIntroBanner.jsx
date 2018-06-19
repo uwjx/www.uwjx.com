@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from '@icedesign/base';
+import { Button, Dialog } from '@icedesign/base';
 import './LandingIntroBanner.scss';
 
 export default class LandingIntroBanner extends Component {
@@ -11,9 +11,21 @@ export default class LandingIntroBanner extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      visible: false,
+    };
   }
+  onOpen = () => {
+    this.setState({
+      visible: true,
+    });
+  };
 
+  onClose = () => {
+    this.setState({
+      visible: false,
+    });
+  };
   render() {
     return (
       <div className="landing-intro-banner" style={{ height: '100vh' }}>
@@ -27,29 +39,45 @@ export default class LandingIntroBanner extends Component {
         />
         <div className="landing-intro-banner-content-wrapper">
           <div className="landing-intro-banner-content">
-            <h2 style={styles.title}>赋能设备入网建设</h2>
+            <h2 style={styles.title}>企业信息化合作伙伴</h2>
             <p style={styles.subTitle}>
-              做最专业的物联网系统服务平台
+              提供专业的软件、硬件系统化解决方案
             </p>
             <div
               className="landing-intro-banner-buttons"
               style={{ textAlign: 'center', marginTop: 70 }}
             >
-              <a href="#" style={styles.leftButton}>
+              <Dialog
+                visible={this.state.visible}
+                onOk={this.onClose}
+                closable="esc,mask,close"
+                onCancel={this.onClose}
+                onClose={this.onClose}
+                title="联系方式"
+              >
+                <ul>
+                  <li>联系人：王经理</li>
+                  <li>电话&微信：18501667737</li>
+                  <li>
+                    <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/wechat-wanghuan.png" width={120} height={120} alt="wechat" />
+                  </li>
+                </ul>
+              </Dialog>
                 <Button
                   style={{
                     height: 50,
                     padding: '0 58px',
                     fontSize: 16,
                     marginBottom: '20px',
+                    marginRight: '20px',
                     color: '#3080FE',
                   }}
+                  onClick={this.onOpen}
                   size="large"
                   type="normal"
                 >
                   联系我们
                 </Button>
-              </a>
               <a href="https://console.uwjx.com">
                 <Button
                   style={{
@@ -61,7 +89,7 @@ export default class LandingIntroBanner extends Component {
                   type="primary"
                   size="large"
                 >
-                  进入云平台
+                  查看案例
                 </Button>
               </a>
             </div>
