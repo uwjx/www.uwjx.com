@@ -10,7 +10,6 @@ export default class Solution extends Component {
     super(props);
     this.state = {};
   }
-
   render() {
     return (
       <div className="solution-page">

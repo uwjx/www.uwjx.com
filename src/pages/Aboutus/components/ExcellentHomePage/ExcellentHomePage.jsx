@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { Button, Dialog } from '@icedesign/base';
 
 import './ExcellentHomePage.scss';
@@ -41,9 +40,9 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">页面开发中...</h2>
+            <h2 className="title">招聘中...</h2>
             <p className="subtitle">
-              企业信息化合作伙伴
+              期待你的加入，让我们一起创造、一起进步！
             </p>
             <div
               className="excellent-home-page-buttons"
