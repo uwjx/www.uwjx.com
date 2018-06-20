@@ -33,7 +33,7 @@ export default class ExcellentHomePage extends Component {
             bottom: 0,
             backgroundSize: 'cover',
             backgroundImage:
-              'url(https://gw.alicdn.com/tfs/TB1oJNKsFOWBuNjy0FiXXXFxVXa-1900-1010.svg)',
+              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jdimg/store-cont1-2.jpg)',
             backgroundPosition: 'center',
           }}
         />
@@ -41,9 +41,9 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">页面开发中...</h2>
+            <h2 className="title">安全 优惠 便捷</h2>
             <p className="subtitle">
-              企业信息化合作伙伴
+              支持移动/电信/联通三网的 普卡/micro-SIM/nano-SIM 制式
             </p>
             <div
               className="excellent-home-page-buttons"

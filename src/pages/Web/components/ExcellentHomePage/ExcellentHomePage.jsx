@@ -33,7 +33,7 @@ export default class ExcellentHomePage extends Component {
             bottom: 0,
             backgroundSize: 'cover',
             backgroundImage:
-              'url(https://gw.alicdn.com/tfs/TB1oJNKsFOWBuNjy0FiXXXFxVXa-1900-1010.svg)',
+              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jdimg/laike-banner.jpg)',
             backgroundPosition: 'center',
           }}
         />
@@ -41,9 +41,9 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">页面开发中...</h2>
+            <h2 className="title">物联网管理云平台</h2>
             <p className="subtitle">
-              企业信息化合作伙伴
+              实时监控/报表追溯/设备管理/用户管理/分级管理/权限管理/报警管理
             </p>
             <div
               className="excellent-home-page-buttons"

@@ -33,7 +33,7 @@ export default class ExcellentHomePage extends Component {
             bottom: 0,
             backgroundSize: 'cover',
             backgroundImage:
-              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/bg1.jpg)',
+              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jdimg/power-cont1-5.jpg)',
             backgroundPosition: 'center',
           }}
         />
@@ -41,9 +41,10 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">页面开发中...</h2>
+            <h2 className="title">软件/硬件全覆盖</h2>
             <p className="subtitle">
-              企业信息化合作伙伴
+              Web/微信公众号/小程序/H5/IOS/Android/智能硬件<br />
+              电子商务/管理系统/营销活动/物联网管理等
             </p>
             <div
               className="excellent-home-page-buttons"

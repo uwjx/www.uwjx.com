@@ -12,7 +12,7 @@ let cleanOptions = {
 module.exports = {
   output: {
     path: resolve('dist'),
-    filename: 'js/bundle-[name]-[chunkhash].js'
+    filename: 'js/bundle-[name]-[hash].js'
   },
   plugins: [
     new CleanWebpackPlugin(pathsToClean, cleanOptions),

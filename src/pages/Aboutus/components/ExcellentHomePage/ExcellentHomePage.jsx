@@ -32,7 +32,7 @@ export default class ExcellentHomePage extends Component {
             bottom: 0,
             backgroundSize: 'cover',
             backgroundImage:
-              'url(https://img.alicdn.com/tfs/TB1DgSmSpXXXXaJXpXXXXXXXXXX-2760-1480.jpg)',
+              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jdimg/store-cont1-3.jpg)',
             backgroundPosition: 'center',
           }}
         />
@@ -40,7 +40,7 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">招聘中...</h2>
+            <h2 className="title">用代码让世界更美好</h2>
             <p className="subtitle">
               期待你的加入，让我们一起创造、一起进步！
             </p>

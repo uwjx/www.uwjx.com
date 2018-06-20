@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import ExcellentHomePage from './components/ExcellentHomePage';
+import PriceCard from './components/PriceCard';
+
 
 export default class Sim extends Component {
   static displayName = 'Sim';
@@ -16,6 +18,7 @@ export default class Sim extends Component {
       <div className="sim-page">
         <Header />
         <ExcellentHomePage />
+        <PriceCard />
         <Footer />
       </div>
     );
