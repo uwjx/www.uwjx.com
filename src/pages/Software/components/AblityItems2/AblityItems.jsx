@@ -51,7 +51,7 @@ export default class AblityItems extends Component {
       <div className="hy-ability" style={style.hyAbilityStyles}>
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://gw.alipayobjects.com/zos/rmsportal/aWimbMGxabytxrRqcnEU.svg"
+            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_wx.png"
             style={style.hyAbilityItemImgStyle}/>
           <h3 style={style.hyAbilityItemTitleStyle}>微信公众号/小程序</h3>
           <p style={style.hyAbilityItemSubtitleStyle}>微信开放接口，微信支付，微信活动，会员卡等</p>
@@ -59,7 +59,7 @@ export default class AblityItems extends Component {
 
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://gw.alipayobjects.com/zos/rmsportal/neNAdNbBxUbWpbUQIsJA.svg"
+            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_app.png"
             style={style.hyAbilityItemImgStyle}/>
           <h3 style={style.hyAbilityItemTitleStyle}>手机APP</h3>
           <p style={style.hyAbilityItemSubtitleStyle}>Android/IOS/Native全面支持</p>
@@ -67,10 +67,10 @@ export default class AblityItems extends Component {
 
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://gw.alipayobjects.com/zos/rmsportal/SsStefBxcUWayMyktAwz.svg"
+            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_h5.png"
             style={style.hyAbilityItemImgStyle}/>
           <h3 style={style.hyAbilityItemTitleStyle}>H5</h3>
-          <p style={style.hyAbilityItemSubtitleStyle}>门禁停车、智能家居、生活服务</p>
+          <p style={style.hyAbilityItemSubtitleStyle}>企业营销活动，H5宣传，抽奖，秒杀等</p>
         </div>
       </div>
     );

@@ -81,8 +81,8 @@ export default class IntroBanner extends Component {
               style={style.introBannerImgStyles}/>
             <div className="intro-banner-img-mask" style={style.introBannerImgMaskStyles}></div>
             <div className="intro-banner-text" style={style.introBannerTextStyles}>
-              <h2 className="intro-banner-title" style={style.introBannerTitleStyles}>智慧社区，未来生活</h2>
-              <p className="intro-banner-subtitle" style={style.introBannerSubtitleStyles}>输出支付，账户体系，信用金融，电商，采购，文化公益和大数据等能力和资源，助力社区物业通过提升信息化、智能化水平，改善物业管理水平和服务品质，推动建设便利舒适、安全和谐的智慧社区</p>
+              <h2 className="intro-banner-title" style={style.introBannerTitleStyles}>智慧系统，未来生活</h2>
+              <p className="intro-banner-subtitle" style={style.introBannerSubtitleStyles}>将您的需求告诉我们，我们为您量身建设信息化系统平台。</p>
             </div>
           </div>
         );

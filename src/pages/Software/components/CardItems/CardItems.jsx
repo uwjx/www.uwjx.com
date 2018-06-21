@@ -38,14 +38,14 @@ export default class CardItems extends Component {
                 />
                 <h5 style={styles.thirdPartyName}>上海可瑞视冷链科技有限公司</h5>
                 <p style={styles.thirdPartySold}>
-                  已接入：
-                  <span style={styles.thirdPartySoldNumber}>712</span> 天
+                  已上线
+                  {/*<span style={styles.thirdPartySoldNumber}>712</span> 天*/}
                 </p>
                 <p style={styles.thirdPartyDesc}>
                   解决医疗冷链管理和温度追溯
                 </p>
-                <a style={styles.thirdPartyLink} href="#">
-                  查看案例
+                <a style={styles.thirdPartyLink} href="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/ppt/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B-%E6%99%BA%E6%85%A7%E5%86%B7%E9%93%BE%E7%89%A9%E6%B5%81.pptx">
+                  点击下载 查看案例
                 </a>
               </div>
 
@@ -55,16 +55,16 @@ export default class CardItems extends Component {
                   src="https://gw.alipayobjects.com/zos/rmsportal/kMXuMYkLTCSkTnzoiRxs.png"
                   alt=""
                 />
-                <h5 style={styles.thirdPartyName}>邻易联</h5>
+                <h5 style={styles.thirdPartyName}>萌店</h5>
                 <p style={styles.thirdPartySold}>
-                  已接入：
-                  <span style={styles.thirdPartySoldNumber}>565</span> 天
+                  已上线
+                  {/*<span style={styles.thirdPartySoldNumber}>565</span> 天*/}
                 </p>
                 <p style={styles.thirdPartyDesc}>
-                  为物业公司提供智慧管理平台，帮助物业提升缴费率，有效解决物业“成本高、服务难改善、盈利渠道少”等难题
+                  以消费者为中心的B2V2C的开店平台。通过一键分享到微信、微博、qq等SNS平台来宣传自己的店铺并促成交易。
                 </p>
-                <a style={styles.thirdPartyLink} href="#">
-                  查看案例
+                <a style={styles.thirdPartyLink} href="http://www.mengdian.com" target="_blank">
+                  点击跳转 查看案例
                 </a>
               </div>
 
@@ -74,16 +74,16 @@ export default class CardItems extends Component {
                   src="https://gw.alipayobjects.com/zos/rmsportal/TpqeamkGvHuXSWKsLOth.png"
                   alt=""
                 />
-                <h5 style={styles.thirdPartyName}>云筑社区综合管理平台</h5>
+                <h5 style={styles.thirdPartyName}>观致逸云</h5>
                 <p style={styles.thirdPartySold}>
-                  已接入：
-                  <span style={styles.thirdPartySoldNumber}>324</span> 天
+                  已上线
+                  {/*<span style={styles.thirdPartySoldNumber}>324</span> 天*/}
                 </p>
                 <p style={styles.thirdPartyDesc}>
-                  基于互联网、物联网、大数据、云计算的物业管理平台，轻松接入，免安装维护
+                  观致逸云带来的便捷及全新社交车生活， 为你开启了一种与世界互联的新关系。
                 </p>
-                <a style={styles.thirdPartyLink} href="#">
-                  查看案例
+                <a style={styles.thirdPartyLink} href="http://www.qorosqloud.com/" target="_blank">
+                  点击跳转 查看案例
                 </a>
               </div>
 
@@ -98,16 +98,16 @@ export default class CardItems extends Component {
                   src="https://gw.alipayobjects.com/zos/rmsportal/ykkPpNnSjuqpqBhxjTir.png"
                   alt=""
                 />
-                <h5 style={styles.thirdPartyName}>橙子生活</h5>
+                <h5 style={styles.thirdPartyName}>智猫净水器</h5>
                 <p style={styles.thirdPartySold}>
-                  已接入：
-                  <span style={styles.thirdPartySoldNumber}>94</span> 天
+                  已上线
+                  {/*<span style={styles.thirdPartySoldNumber}>94</span> 天*/}
                 </p>
                 <p style={styles.thirdPartyDesc}>
-                  助力物业转型升级，轻松实现线上缴费，公告触达，报修响应。解决物业收费难、服务感知度低、收入来源单一等难题
+                  智猫智能净水器管理系统，提供整体物联网水机解决方案。
                 </p>
-                <a style={styles.thirdPartyLink} href="#">
-                  查看案例
+                <a style={styles.thirdPartyLink} href="http://www.zhimoo.com/" target="_blank">
+                  点击跳转 查看案例
                 </a>
               </div>
             </div>

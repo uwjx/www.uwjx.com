@@ -43,8 +43,8 @@ export default class ExcellentHomePage extends Component {
           <div className="excellent-home-page-content">
             <h2 className="title">软件定制开发</h2>
             <p className="subtitle">
-              Web/微信公众号/小程序/H5/IOS/Android/智能硬件<br />
-              电子商务/管理系统/营销活动/物联网管理等
+              Web/微信公众号/小程序/H5/IOS/Android等全面覆盖<br />
+              电子商务/企业管理系统/营销活动/物联网管理等
             </p>
             <div
               className="excellent-home-page-buttons"
