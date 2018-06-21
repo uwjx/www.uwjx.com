@@ -69,6 +69,28 @@ export default class IntroTab extends Component {
               <h4>设计和产品</h4>
               <p>Ps/Axure/Sketch</p>
             </div>
+
+            <div data-index="3" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 3)}`}>
+              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_cw.png" alt="design" />
+              <img
+                className="selected"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_cw.png"
+                alt="design"
+              />
+              <h4>财务出纳</h4>
+              <p>财务管理 出纳报销</p>
+            </div>
+
+            <div data-index="4" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 4)}`}>
+              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_xz.png" alt="design" />
+              <img
+                className="selected"
+                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_xz.png"
+                alt="design"
+              />
+              <h4>行政客服</h4>
+              <p>日常接待 客户交流</p>
+            </div>
           </div>
         </div>
         <div className="scenario-detail-list bt1px">
