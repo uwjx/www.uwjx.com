@@ -41,7 +41,7 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">软件/硬件全覆盖</h2>
+            <h2 className="title">软件定制开发</h2>
             <p className="subtitle">
               Web/微信公众号/小程序/H5/IOS/Android/智能硬件<br />
               电子商务/管理系统/营销活动/物联网管理等

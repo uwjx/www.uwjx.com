@@ -63,6 +63,7 @@ export default class LandingIntroBanner extends Component {
                   </li>
                 </ul>
               </Dialog>
+              <a href="#/hardware">
                 <Button
                   style={{
                     height: 50,
@@ -72,13 +73,13 @@ export default class LandingIntroBanner extends Component {
                     marginRight: '20px',
                     color: '#3080FE',
                   }}
-                  onClick={this.onOpen}
                   size="large"
                   type="normal"
                 >
-                  联系我们
+                  硬件定制开发
                 </Button>
-              <a href="https://console.uwjx.com">
+              </a>
+              <a href="#/software">
                 <Button
                   style={{
                     height: 50,
@@ -89,7 +90,7 @@ export default class LandingIntroBanner extends Component {
                   type="primary"
                   size="large"
                 >
-                  查看案例
+                  软件定制开发
                 </Button>
               </a>
             </div>

@@ -46,7 +46,7 @@ const routerConfig = [
     component: Hardware,
   },
   {
-    path: '/solution',
+    path: '/software',
     layout: BlankLayout,
     component: Solution,
   },

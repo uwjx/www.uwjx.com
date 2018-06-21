@@ -10,16 +10,16 @@ const MENUS = [
     path: '/#/',
   },
   {
-    name: '云平台',
-    path: '/#/web',
-  },
-  {
     name: '智能硬件',
     path: '/#/hardware',
   },
   {
+    name: '软件开发',
+    path: '/#/software',
+  },
+  {
     name: '解决方案',
-    path: '/#/solution',
+    path: '/#/web',
   },
   {
     name: '物联网卡',
