@@ -7,8 +7,8 @@ import Home from './pages/Home';
 import Page3 from './pages/Page3';
 import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
-import Web from './pages/Web';
 import Hardware from './pages/Hardware';
+import Software from './pages/Software';
 import Solution from './pages/Solution';
 import Sim from './pages/Sim';
 import Aboutus from './pages/Aboutus';
@@ -36,9 +36,9 @@ const routerConfig = [
     component: Page5,
   },
   {
-    path: '/web',
+    path: '/solution',
     layout: BlankLayout,
-    component: Web,
+    component: Solution,
   },
   {
     path: '/hardware',
@@ -48,7 +48,7 @@ const routerConfig = [
   {
     path: '/software',
     layout: BlankLayout,
-    component: Solution,
+    component: Software,
   },
   {
     path: '/sim',

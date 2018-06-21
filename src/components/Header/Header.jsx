@@ -19,7 +19,7 @@ const MENUS = [
   },
   {
     name: '解决方案',
-    path: '/#/web',
+    path: '/#/solution',
   },
   {
     name: '物联网卡',
