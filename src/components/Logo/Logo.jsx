@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './logo.css';
 
 const LIGHT =
-  'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/uwjx-logo-png-white.png';
+  'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/uwjx-logo-png-white.png';
 
 export default class Logo extends Component {
   render() {

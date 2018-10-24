@@ -32,7 +32,7 @@ export default class ExcellentHomePage extends Component {
             bottom: 0,
             backgroundSize: 'cover',
             backgroundImage:
-              'url(https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jdimg/store-cont1-3.jpg)',
+              'url(https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/tab-aboutus.jpg)',
             backgroundPosition: 'center',
           }}
         />
@@ -60,7 +60,7 @@ export default class ExcellentHomePage extends Component {
                   <li>联系人：王经理</li>
                   <li>电话&微信：18501667737</li>
                   <li>
-                    <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/wechat-wanghuan.png" width={120} height={120} alt="wechat" />
+                    <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/hugh-wechat.png" width={120} height={120} alt="wechat" />
                   </li>
                 </ul>
               </Dialog>
