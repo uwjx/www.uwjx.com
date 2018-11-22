@@ -14,7 +14,7 @@ export default class RightContentDisplay extends Component {
         <div className="right-content-display-content" style={styles.content}>
           <div style={styles.col}>
             <img
-              src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/gps.png"
+              src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/hardware_gps.jpg"
               alt="img"
               style={styles.image}
             />

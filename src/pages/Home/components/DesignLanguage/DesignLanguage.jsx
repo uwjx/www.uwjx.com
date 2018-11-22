@@ -30,7 +30,7 @@ export default class FeatureList extends Component {
           <div style={styles.featureListWrapper}>
             <div style={styles.featureItem}>
               <img
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/xp.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/home_xp.png"
                 alt=""
                 style={{ width: 90, height: 90 }}
               />
@@ -39,7 +39,7 @@ export default class FeatureList extends Component {
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/os.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/home_os.png"
                 alt=""
                 style={{ width: 90, height: 90 }}
               />
@@ -48,7 +48,7 @@ export default class FeatureList extends Component {
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/cgq.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/home_cgq.png"
                 alt=""
                 style={{ width: 90, height: 90 }}
               />
@@ -57,7 +57,7 @@ export default class FeatureList extends Component {
             </div>
             <div style={styles.featureItem}>
               <img
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/net.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/home_net.png"
                 alt=""
                 style={{ width: 90, height: 90 }}
               />

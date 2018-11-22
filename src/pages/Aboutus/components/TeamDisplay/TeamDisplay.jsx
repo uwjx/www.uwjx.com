@@ -28,37 +28,37 @@ export default class TeamDisplay extends Component {
         name: '王欢',
         description: '总经理',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/2013-10-20%20195110.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
       {
         name: '杨吕杰',
         description: '产品经理',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/e-ylj.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
       {
         name: '吴健',
         description: '前端工程师',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/e-wj.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
       {
         name: '李佳智',
         description: 'Java工程师',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/e-lq.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
       {
         name: '朱宁宁',
         description: 'UI设计师',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/e-sl.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
       {
         name: '梁洁瑜',
         description: '行政助理/客服',
         imgUrl:
-          'https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/employees/e-jcy.jpg',
+          'https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_pic.png',
       },
     ];
     return (

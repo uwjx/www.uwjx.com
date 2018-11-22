@@ -51,7 +51,7 @@ export default class AblityItems extends Component {
       <div className="hy-ability" style={style.hyAbilityStyles}>
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_gw.png"
+            src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software_gw.png"
             style={style.hyAbilityItemImgStyle} />
           <h3 style={style.hyAbilityItemTitleStyle}>企业官网</h3>
           <p style={style.hyAbilityItemSubtitleStyle}>企业官网定制开发，最低只收费300元，包含网站托管1年的费用。</p>
@@ -59,7 +59,7 @@ export default class AblityItems extends Component {
 
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_web.png"
+            src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software_web.png"
             style={style.hyAbilityItemImgStyle}/>
           <h3 style={style.hyAbilityItemTitleStyle}>Web管理系统</h3>
           <p style={style.hyAbilityItemSubtitleStyle}>企业ERP，CRM系统，业务逻辑管理系统等。</p>
@@ -67,7 +67,7 @@ export default class AblityItems extends Component {
 
         <div className="hy-ability-item" style={style.hyAbilityItemStyle}>
           <img
-            src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software/software_emarket.png"
+            src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software_emarket.png"
             style={style.hyAbilityItemImgStyle}/>
           <h3 style={style.hyAbilityItemTitleStyle}>在线商城</h3>
           <p style={style.hyAbilityItemSubtitleStyle}>B2B，B2C，手机商城，公众号商城，小程序商城等</p>

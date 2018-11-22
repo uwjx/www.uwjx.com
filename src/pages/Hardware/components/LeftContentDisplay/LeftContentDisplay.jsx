@@ -40,7 +40,7 @@ export default class LeftContentDisplay extends Component {
           </div>
           <div style={styles.col}>
             <img
-              src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/xp.jpg"
+              src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/hardware_xp.jpg"
               alt="img"
               style={styles.image}
             />

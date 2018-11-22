@@ -34,12 +34,12 @@ export default class IntroTab extends Component {
         <div className="scenario-slider ">
           <div className="scenario-list">
             <div data-index="0" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 0)}`}>
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/backend.png"
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_java.png"
                 alt="backend"
               />
               <img
                 className="selected"
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/backend.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_java.png"
                 alt="backend"
               />
               <h4>后端工程师</h4>
@@ -47,12 +47,12 @@ export default class IntroTab extends Component {
             </div>
 
             <div data-index="1" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 1)}`}>
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/front.png"
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_web.png"
                 alt="front"
               />
               <img
                 className="selected"
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/front.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_web.png"
                 alt="front"
               />
               <h4>前端工程师</h4>
@@ -60,10 +60,10 @@ export default class IntroTab extends Component {
             </div>
 
             <div data-index="2" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 2)}`}>
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/design.png" alt="design" />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_design.png" alt="design" />
               <img
                 className="selected"
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/design.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_design.png"
                 alt="design"
               />
               <h4>设计和产品</h4>
@@ -71,10 +71,10 @@ export default class IntroTab extends Component {
             </div>
 
             <div data-index="3" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 3)}`}>
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_cw.png" alt="design" />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_cw.png" alt="design" />
               <img
                 className="selected"
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_cw.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_cw.png"
                 alt="design"
               />
               <h4>财务出纳</h4>
@@ -82,10 +82,10 @@ export default class IntroTab extends Component {
             </div>
 
             <div data-index="4" onClick={this.clickTab} className={`scenario-item ${this.isSelected(index, 4)}`}>
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_xz.png" alt="design" />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_xz.png" alt="design" />
               <img
                 className="selected"
-                src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/job_xz.png"
+                src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_xz.png"
                 alt="design"
               />
               <h4>行政客服</h4>
@@ -148,7 +148,7 @@ export default class IntroTab extends Component {
             </div>
 
             <div className="scenario-detail-right">
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/java.jpg" alt="java" style={{ height: '100%' }} />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_java.png" alt="java" style={{ height: '100%' }} />
             </div>
           </div>
 
@@ -206,7 +206,7 @@ export default class IntroTab extends Component {
             </div>
 
             <div className="scenario-detail-right">
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/react.png" alt="react" style={{ height: '100%' }} />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_React.png" alt="react" style={{ height: '100%' }} />
             </div>
           </div>
 
@@ -261,7 +261,7 @@ export default class IntroTab extends Component {
             </div>
 
             <div className="scenario-detail-right">
-              <img src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/jobs/ps.png" alt="ps" style={{ height: '100%' }} />
+              <img src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/abouts_ps.png" alt="ps" style={{ height: '100%' }} />
             </div>
           </div>
         </div>

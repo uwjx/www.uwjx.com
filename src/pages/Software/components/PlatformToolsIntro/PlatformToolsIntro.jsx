@@ -28,7 +28,7 @@ export default class PlatformIntro2 extends Component {
           </p>
         </div>
         <img
-          src="https://uwjx.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/hzlc.jpg"
+          src="https://uwjx-production-public-read.oss-cn-hangzhou.aliyuncs.com/www.uwjx.com/software_hzlc.png"
           alt=""
           width="1000"
           height="460"
